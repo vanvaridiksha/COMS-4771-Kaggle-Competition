@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn import tree
 
-input_file = "data.csv"
+input_file = "data/data.csv"
 
 # comma delimited is the default
 df = pd.read_csv(input_file, header = 0)
